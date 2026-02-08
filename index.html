@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang='en'><head>
+<meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width,initial-scale=1'/>
+<title>Course Playlist</title>
+
+<style>
+  :root{--border:#e9e9e9;--muted:#666;--bg:#fff;--chip:#f6f6f6}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:14px;background:var(--bg);color:#111}
+  .wrap{max-width:980px;margin:0 auto}
+  .top{position:sticky;top:0;background:var(--bg);padding:10px 0 12px;border-bottom:1px solid var(--border);z-index:10}
+  iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;background:#000}
+  .meta{margin-top:8px;color:#333}
+  .meta a{color:#0b57d0;text-decoration:none}
+  .meta a:hover{text-decoration:underline}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  button.ctrl{border:1px solid var(--border);background:var(--chip);padding:10px 12px;border-radius:12px;font-size:14px}
+  input#q{width:100%;border:1px solid var(--border);border-radius:12px;padding:12px 12px;font-size:15px;margin-top:12px}
+  h1{font-size:22px;margin:18px 0 10px}
+  h2{font-size:16px;margin:0}
+  .sec{margin-top:18px;padding-top:8px;border-top:1px solid var(--border)}
+  .list{display:grid;grid-template-columns:1fr;gap:10px}
+  .card{border:1px solid var(--border);border-radius:14px;padding:10px}
+  .play{width:100%;text-align:left;border:0;border-radius:12px;background:var(--chip);padding:12px;font-size:15px}
+  .small{margin-top:8px;color:var(--muted);font-size:12px;display:flex;gap:10px;flex-wrap:wrap}
+  .pill{border:1px solid var(--border);background:#fff;border-radius:999px;padding:4px 10px}
+  .hidden{display:none !important}
+</style>
+
+</head><body><div class='wrap'>
+
+<div class="top">
+  <iframe id="player" src="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <div class="meta" id="meta">Select a lesson…</div>
+  <div class="controls">
+    <button class="ctrl" id="prev">◀︎ Prev</button>
+    <button class="ctrl" id="next">Next ▶︎</button>
+    <button class="ctrl" id="openLesson">Open lesson page</button>
+  </div>
+  <input id="q" type="search" placeholder="Search lessons…" />
+</div>
+
+<div class='sec'><h1>Biomechanics</h1><div class='list' data-section='Biomechanics'>
+<div class='card'>
+<h2>How We Work On The Serve</h2>
+<button class='play' data-vid='184144937' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/how-we-work-on-serve/' data-section='Biomechanics' data-title='How We Work On The Serve'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 184144937</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/how-we-work-on-serve/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>3 Laws Of Physics</h2>
+<button class='play' data-vid='184179779' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/3-laws-of-physics/' data-section='Biomechanics' data-title='3 Laws Of Physics'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 184179779</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/3-laws-of-physics/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>4 Major Mistakes</h2>
+<button class='play' data-vid='185320821' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/4-major-mistakes/' data-section='Biomechanics' data-title='4 Major Mistakes'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 185320821</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/4-major-mistakes/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The Power Move</h2>
+<button class='play' data-vid='190599738' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/the-power-move/' data-section='Biomechanics' data-title='The Power Move'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 190599738</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/the-power-move/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Pronation Progressions</h2>
+<button class='play' data-vid='189274894' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/pronation-progressions/' data-section='Biomechanics' data-title='Pronation Progressions'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 189274894</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/pronation-progressions/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Susan Case Study</h2>
+<button class='play' data-vid='190674328' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/susan-case-study/' data-section='Biomechanics' data-title='Susan Case Study'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 190674328</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/susan-case-study/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>How To Warm Up The Serve</h2>
+<button class='play' data-vid='762903978' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-biomechanics/warm-up-serve/' data-section='Biomechanics' data-title='How To Warm Up The Serve'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 762903978</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-biomechanics/warm-up-serve/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Technique</h1><div class='list' data-section='Technique'>
+<div class='card'>
+<h2>The Stance</h2>
+<button class='play' data-vid='163228737' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/the-stance/' data-section='Technique' data-title='The Stance'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163228737</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/the-stance/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Finding A Continental Grip</h2>
+<button class='play' data-vid='163228799' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/finding-a-continental-grip/' data-section='Technique' data-title='Finding A Continental Grip'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163228799</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/finding-a-continental-grip/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Swing To Contact And Pronation</h2>
+<button class='play' data-vid='163230345' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/swing-to-contact-and-pronation/' data-section='Technique' data-title='Swing To Contact And Pronation'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163230345</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/swing-to-contact-and-pronation/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Backswing And Toss</h2>
+<button class='play' data-vid='163242314' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/backswing-and-toss/' data-section='Technique' data-title='Backswing And Toss'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163242314</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/backswing-and-toss/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Serve In Two Parts</h2>
+<button class='play' data-vid='163243168' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/serve-in-two-parts/' data-section='Technique' data-title='Serve In Two Parts'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163243168</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/serve-in-two-parts/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The Power Move</h2>
+<button class='play' data-vid='163244467' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/the-power-move/' data-section='Technique' data-title='The Power Move'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163244467</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/the-power-move/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Complete Serve And Flow</h2>
+<button class='play' data-vid='163245316' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/complete-serve-and-flow/' data-section='Technique' data-title='Complete Serve And Flow'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163245316</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/complete-serve-and-flow/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Correcting The Waiter</h2>
+<button class='play' data-vid='756127828' data-lessonurl='https://member.feeltennis.net/serveunlocked/serve-technique/correcting-the-waiter/' data-section='Technique' data-title='Correcting The Waiter'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 756127828</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/serve-technique/correcting-the-waiter/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Mind</h1><div class='list' data-section='Mind'>
+<div class='card'>
+<h2>The Feeling Of Control</h2>
+<button class='play' data-vid='163156706' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/the-feeling-of-control/' data-section='Mind' data-title='The Feeling Of Control'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163156706</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/the-feeling-of-control/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>2 Paths of Development</h2>
+<button class='play' data-vid='162181317' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/2-paths-of-development/' data-section='Mind' data-title='2 Paths of Development'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162181317</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/2-paths-of-development/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Correct Learning Process</h2>
+<button class='play' data-vid='162245200' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/correct-learning-process/' data-section='Mind' data-title='Correct Learning Process'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162245200</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/correct-learning-process/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Aiming At The Ball</h2>
+<button class='play' data-vid='163160425' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-at-the-ball/' data-section='Mind' data-title='Aiming At The Ball'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163160425</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-at-the-ball/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Desire for Correct Technique</h2>
+<button class='play' data-vid='162185093' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-for-correct-technique/' data-section='Mind' data-title='Desire for Correct Technique'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162185093</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-for-correct-technique/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Aiming in the Mind (not Arm)</h2>
+<button class='play' data-vid='162182863' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-in-the-mind-not-arm/' data-section='Mind' data-title='Aiming in the Mind (not Arm)'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162182863</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-in-the-mind-not-arm/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>1st and 2nd Serves Mindset</h2>
+<button class='play' data-vid='162178825' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/1st-and-2nd-serves-mindset/' data-section='Mind' data-title='1st and 2nd Serves Mindset'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162178825</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/1st-and-2nd-serves-mindset/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Judging The Serve By The Effort</h2>
+<button class='play' data-vid='162242878' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/judging-the-serve-by-the-effort/' data-section='Mind' data-title='Judging The Serve By The Effort'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162242878</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/judging-the-serve-by-the-effort/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Best Way To Unlock Your Serve</h2>
+<button class='play' data-vid='162246175' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/best-way-to-unlock-your-serve/' data-section='Mind' data-title='Best Way To Unlock Your Serve'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162246175</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/best-way-to-unlock-your-serve/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Desire to Orient Towards the Court</h2>
+<button class='play' data-vid='162246465' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-to-orient-towards-the-court/' data-section='Mind' data-title='Desire to Orient Towards the Court'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162246465</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-to-orient-towards-the-court/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Playing for Points</h2>
+<button class='play' data-vid='162246783' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/playing-for-points/' data-section='Mind' data-title='Playing for Points'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162246783</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/playing-for-points/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Expecting Collision</h2>
+<button class='play' data-vid='162185873' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/expecting-collision/' data-section='Mind' data-title='Expecting Collision'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162185873</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/expecting-collision/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Mistakes vs Feedback</h2>
+<button class='play' data-vid='162245728' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/mistakes-vs-feedback/' data-section='Mind' data-title='Mistakes vs Feedback'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162245728</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-mind/mistakes-vs-feedback/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Wrist</h1><div class='list' data-section='Wrist'>
+<div class='card'>
+<h2>The Role of the Wrist</h2>
+<button class='play' data-vid='164091759' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-role-of-the-wrist/' data-section='Wrist' data-title='The Role of the Wrist'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 164091759</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-role-of-the-wrist/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The Cobra Drill</h2>
+<button class='play' data-vid='164135236' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-cobra-drill/' data-section='Wrist' data-title='The Cobra Drill'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 164135236</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-cobra-drill/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The 3 Frames Drill</h2>
+<button class='play' data-vid='162272023' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-frames-drill/' data-section='Wrist' data-title='The 3 Frames Drill'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162272023</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-frames-drill/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Role of the Fingers (2 by 2 Drill)</h2>
+<button class='play' data-vid='162249873' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-fingers-2-by-2-drill/' data-section='Wrist' data-title='Role of the Fingers (2 by 2 Drill)'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162249873</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-fingers-2-by-2-drill/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Role of the Index Finger</h2>
+<button class='play' data-vid='162273824' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-index-finger/' data-section='Wrist' data-title='Role of the Index Finger'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162273824</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-index-finger/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The 3 Fingers Drill</h2>
+<button class='play' data-vid='162271494' data-lessonurl='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-fingers-drill/' data-section='Wrist' data-title='The 3 Fingers Drill'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162271494</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-fingers-drill/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Speed</h1><div class='list' data-section='Speed'>
+<div class='card'>
+<h2>Unlocking the Technique</h2>
+<button class='play' data-vid='163133771' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/unlocking-the-technique/' data-section='Speed' data-title='Unlocking the Technique'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163133771</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/unlocking-the-technique/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Less is More</h2>
+<button class='play' data-vid='162494430' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/less-is-more/' data-section='Speed' data-title='Less is More'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162494430</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/less-is-more/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Focusing Energy</h2>
+<button class='play' data-vid='162338513' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/focusing-energy/' data-section='Speed' data-title='Focusing Energy'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 162338513</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/focusing-energy/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Maximum Racquet Head Speed At Contact</h2>
+<button class='play' data-vid='163140885' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/maximum-racquet-head-speed-at-contact/' data-section='Speed' data-title='Maximum Racquet Head Speed At Contact'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163140885</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/maximum-racquet-head-speed-at-contact/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>With and Without</h2>
+<button class='play' data-vid='163167909' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/with-and-without/' data-section='Speed' data-title='With and Without'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163167909</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/with-and-without/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Achieving a Whip Effect</h2>
+<button class='play' data-vid='163166992' data-lessonurl='https://member.feeltennis.net/serveunlocked/speed-vs-strength/achieving-a-whip-effect/' data-section='Speed' data-title='Achieving a Whip Effect'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163166992</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/speed-vs-strength/achieving-a-whip-effect/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Power</h1><div class='list' data-section='Power'>
+<div class='card'>
+<h2>Understanding the Energy Flow</h2>
+<button class='play' data-vid='163168818' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/understanding-the-energy-flow/' data-section='Power' data-title='Understanding the Energy Flow'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163168818</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/understanding-the-energy-flow/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Power From the Legs</h2>
+<button class='play' data-vid='163169410' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/power-from-the-legs/' data-section='Power' data-title='Power From the Legs'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163169410</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/power-from-the-legs/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Starting With the Tip of the Racquet</h2>
+<button class='play' data-vid='163170141' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/starting-with-the-tip-of-the-racquet/' data-section='Power' data-title='Starting With the Tip of the Racquet'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163170141</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/starting-with-the-tip-of-the-racquet/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Rhythm of the Serve</h2>
+<button class='play' data-vid='163170637' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/rhythm-of-the-serve/' data-section='Power' data-title='Rhythm of the Serve'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163170637</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/rhythm-of-the-serve/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Why You Shouldn’t Serve “Forward”</h2>
+<button class='play' data-vid='163172746' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/why-you-shouldnt-serve-forward/' data-section='Power' data-title='Why You Shouldn’t Serve “Forward”'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163172746</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/why-you-shouldnt-serve-forward/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>When is the Arm’s “Turn” to Work?</h2>
+<button class='play' data-vid='163168260' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/when-is-the-arms-turn-to-work/' data-section='Power' data-title='When is the Arm’s “Turn” to Work?'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163168260</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/when-is-the-arms-turn-to-work/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Feel the Role of the Wrist</h2>
+<button class='play' data-vid='163220162' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/feel-the-role-of-the-wrist/' data-section='Power' data-title='Feel the Role of the Wrist'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163220162</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/feel-the-role-of-the-wrist/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Power of the Fall</h2>
+<button class='play' data-vid='163219792' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/power-of-the-fall/' data-section='Power' data-title='Power of the Fall'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163219792</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/power-of-the-fall/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The &quot;Being Loose&quot; Clarification</h2>
+<button class='play' data-vid='787128384' data-lessonurl='https://member.feeltennis.net/serveunlocked/sources-of-power/being-loose/' data-section='Power' data-title='The &quot;Being Loose&quot; Clarification'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 787128384</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/sources-of-power/being-loose/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<div class='sec'><h1>Toss</h1><div class='list' data-section='Toss'>
+<div class='card'>
+<h2>Body Too Active</h2>
+<button class='play' data-vid='163221933' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-active/' data-section='Toss' data-title='Body Too Active'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163221933</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-active/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Body Too Tense</h2>
+<button class='play' data-vid='163222283' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-tense/' data-section='Toss' data-title='Body Too Tense'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163222283</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-tense/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>How to Work on the Tossing Arm</h2>
+<button class='play' data-vid='163223235' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/how-to-work-on-the-tossing-arm/' data-section='Toss' data-title='How to Work on the Tossing Arm'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163223235</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/how-to-work-on-the-tossing-arm/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Dealing With Imperfect Tosses</h2>
+<button class='play' data-vid='163223509' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/dealing-with-imperfect-tosses/' data-section='Toss' data-title='Dealing With Imperfect Tosses'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163223509</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/dealing-with-imperfect-tosses/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Throwing vs Releasing</h2>
+<button class='play' data-vid='163223960' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/throwing-vs-releasing/' data-section='Toss' data-title='Throwing vs Releasing'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163223960</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/throwing-vs-releasing/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Myth of the Perfect Toss</h2>
+<button class='play' data-vid='163224467' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/myth-of-the-perfect-toss/' data-section='Toss' data-title='Myth of the Perfect Toss'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163224467</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/myth-of-the-perfect-toss/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Finding Ideal Ball Placement</h2>
+<button class='play' data-vid='163225447' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/finding-ideal-ball-placement/' data-section='Toss' data-title='Finding Ideal Ball Placement'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163225447</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/finding-ideal-ball-placement/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>Achieving a Vertical Tossing Arm</h2>
+<button class='play' data-vid='163219274' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/achieving-a-vertical-tossing-arm/' data-section='Toss' data-title='Achieving a Vertical Tossing Arm'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163219274</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/achieving-a-vertical-tossing-arm/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+<div class='card'>
+<h2>The Integrated Toss</h2>
+<button class='play' data-vid='163226787' data-lessonurl='https://member.feeltennis.net/serveunlocked/toss-secrets/the-integrated-toss/' data-section='Toss' data-title='The Integrated Toss'>Play</button>
+<div class='small'><span class='pill'>Vimeo ID: 163226787</span><a class='pill' href='https://member.feeltennis.net/serveunlocked/toss-secrets/the-integrated-toss/' target='_blank' rel='noreferrer'>Lesson page</a></div>
+</div>
+</div></div>
+<script>
+const ITEMS = [{"section": "Biomechanics", "lesson": "How We Work On The Serve", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/how-we-work-on-serve/", "vimeo_id": "184144937"}, {"section": "Biomechanics", "lesson": "3 Laws Of Physics", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/3-laws-of-physics/", "vimeo_id": "184179779"}, {"section": "Biomechanics", "lesson": "4 Major Mistakes", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/4-major-mistakes/", "vimeo_id": "185320821"}, {"section": "Biomechanics", "lesson": "The Power Move", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/the-power-move/", "vimeo_id": "190599738"}, {"section": "Biomechanics", "lesson": "Pronation Progressions", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/pronation-progressions/", "vimeo_id": "189274894"}, {"section": "Biomechanics", "lesson": "Susan Case Study", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/susan-case-study/", "vimeo_id": "190674328"}, {"section": "Biomechanics", "lesson": "How To Warm Up The Serve", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-biomechanics/warm-up-serve/", "vimeo_id": "762903978"}, {"section": "Technique", "lesson": "The Stance", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/the-stance/", "vimeo_id": "163228737"}, {"section": "Technique", "lesson": "Finding A Continental Grip", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/finding-a-continental-grip/", "vimeo_id": "163228799"}, {"section": "Technique", "lesson": "Swing To Contact And Pronation", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/swing-to-contact-and-pronation/", "vimeo_id": "163230345"}, {"section": "Technique", "lesson": "Backswing And Toss", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/backswing-and-toss/", "vimeo_id": "163242314"}, {"section": "Technique", "lesson": "Serve In Two Parts", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/serve-in-two-parts/", "vimeo_id": "163243168"}, {"section": "Technique", "lesson": "The Power Move", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/the-power-move/", "vimeo_id": "163244467"}, {"section": "Technique", "lesson": "Complete Serve And Flow", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/complete-serve-and-flow/", "vimeo_id": "163245316"}, {"section": "Technique", "lesson": "Correcting The Waiter", "lesson_url": "https://member.feeltennis.net/serveunlocked/serve-technique/correcting-the-waiter/", "vimeo_id": "756127828"}, {"section": "Mind", "lesson": "The Feeling Of Control", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/the-feeling-of-control/", "vimeo_id": "163156706"}, {"section": "Mind", "lesson": "2 Paths of Development", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/2-paths-of-development/", "vimeo_id": "162181317"}, {"section": "Mind", "lesson": "Correct Learning Process", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/correct-learning-process/", "vimeo_id": "162245200"}, {"section": "Mind", "lesson": "Aiming At The Ball", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-at-the-ball/", "vimeo_id": "163160425"}, {"section": "Mind", "lesson": "Desire for Correct Technique", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-for-correct-technique/", "vimeo_id": "162185093"}, {"section": "Mind", "lesson": "Aiming in the Mind (not Arm)", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/aiming-in-the-mind-not-arm/", "vimeo_id": "162182863"}, {"section": "Mind", "lesson": "1st and 2nd Serves Mindset", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/1st-and-2nd-serves-mindset/", "vimeo_id": "162178825"}, {"section": "Mind", "lesson": "Judging The Serve By The Effort", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/judging-the-serve-by-the-effort/", "vimeo_id": "162242878"}, {"section": "Mind", "lesson": "Best Way To Unlock Your Serve", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/best-way-to-unlock-your-serve/", "vimeo_id": "162246175"}, {"section": "Mind", "lesson": "Desire to Orient Towards the Court", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/desire-to-orient-towards-the-court/", "vimeo_id": "162246465"}, {"section": "Mind", "lesson": "Playing for Points", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/playing-for-points/", "vimeo_id": "162246783"}, {"section": "Mind", "lesson": "Expecting Collision", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/expecting-collision/", "vimeo_id": "162185873"}, {"section": "Mind", "lesson": "Mistakes vs Feedback", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-mind/mistakes-vs-feedback/", "vimeo_id": "162245728"}, {"section": "Wrist", "lesson": "The Role of the Wrist", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-role-of-the-wrist/", "vimeo_id": "164091759"}, {"section": "Wrist", "lesson": "The Cobra Drill", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-cobra-drill/", "vimeo_id": "164135236"}, {"section": "Wrist", "lesson": "The 3 Frames Drill", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-frames-drill/", "vimeo_id": "162272023"}, {"section": "Wrist", "lesson": "Role of the Fingers (2 by 2 Drill)", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-fingers-2-by-2-drill/", "vimeo_id": "162249873"}, {"section": "Wrist", "lesson": "Role of the Index Finger", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/role-of-the-index-finger/", "vimeo_id": "162273824"}, {"section": "Wrist", "lesson": "The 3 Fingers Drill", "lesson_url": "https://member.feeltennis.net/serveunlocked/unlocking-the-wrist/the-3-fingers-drill/", "vimeo_id": "162271494"}, {"section": "Speed", "lesson": "Unlocking the Technique", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/unlocking-the-technique/", "vimeo_id": "163133771"}, {"section": "Speed", "lesson": "Less is More", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/less-is-more/", "vimeo_id": "162494430"}, {"section": "Speed", "lesson": "Focusing Energy", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/focusing-energy/", "vimeo_id": "162338513"}, {"section": "Speed", "lesson": "Maximum Racquet Head Speed At Contact", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/maximum-racquet-head-speed-at-contact/", "vimeo_id": "163140885"}, {"section": "Speed", "lesson": "With and Without", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/with-and-without/", "vimeo_id": "163167909"}, {"section": "Speed", "lesson": "Achieving a Whip Effect", "lesson_url": "https://member.feeltennis.net/serveunlocked/speed-vs-strength/achieving-a-whip-effect/", "vimeo_id": "163166992"}, {"section": "Power", "lesson": "Understanding the Energy Flow", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/understanding-the-energy-flow/", "vimeo_id": "163168818"}, {"section": "Power", "lesson": "Power From the Legs", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/power-from-the-legs/", "vimeo_id": "163169410"}, {"section": "Power", "lesson": "Starting With the Tip of the Racquet", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/starting-with-the-tip-of-the-racquet/", "vimeo_id": "163170141"}, {"section": "Power", "lesson": "Rhythm of the Serve", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/rhythm-of-the-serve/", "vimeo_id": "163170637"}, {"section": "Power", "lesson": "Why You Shouldn\u2019t Serve \u201cForward\u201d", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/why-you-shouldnt-serve-forward/", "vimeo_id": "163172746"}, {"section": "Power", "lesson": "When is the Arm\u2019s \u201cTurn\u201d to Work?", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/when-is-the-arms-turn-to-work/", "vimeo_id": "163168260"}, {"section": "Power", "lesson": "Feel the Role of the Wrist", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/feel-the-role-of-the-wrist/", "vimeo_id": "163220162"}, {"section": "Power", "lesson": "Power of the Fall", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/power-of-the-fall/", "vimeo_id": "163219792"}, {"section": "Power", "lesson": "The \"Being Loose\" Clarification", "lesson_url": "https://member.feeltennis.net/serveunlocked/sources-of-power/being-loose/", "vimeo_id": "787128384"}, {"section": "Toss", "lesson": "Body Too Active", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-active/", "vimeo_id": "163221933"}, {"section": "Toss", "lesson": "Body Too Tense", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/body-too-tense/", "vimeo_id": "163222283"}, {"section": "Toss", "lesson": "How to Work on the Tossing Arm", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/how-to-work-on-the-tossing-arm/", "vimeo_id": "163223235"}, {"section": "Toss", "lesson": "Dealing With Imperfect Tosses", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/dealing-with-imperfect-tosses/", "vimeo_id": "163223509"}, {"section": "Toss", "lesson": "Throwing vs Releasing", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/throwing-vs-releasing/", "vimeo_id": "163223960"}, {"section": "Toss", "lesson": "Myth of the Perfect Toss", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/myth-of-the-perfect-toss/", "vimeo_id": "163224467"}, {"section": "Toss", "lesson": "Finding Ideal Ball Placement", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/finding-ideal-ball-placement/", "vimeo_id": "163225447"}, {"section": "Toss", "lesson": "Achieving a Vertical Tossing Arm", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/achieving-a-vertical-tossing-arm/", "vimeo_id": "163219274"}, {"section": "Toss", "lesson": "The Integrated Toss", "lesson_url": "https://member.feeltennis.net/serveunlocked/toss-secrets/the-integrated-toss/", "vimeo_id": "163226787"}];
+
+let idx = -1;
+
+function embedUrl(vid){ return `https://player.vimeo.com/video/${vid}`; }
+
+function setMeta(it){
+  const meta = document.getElementById('meta');
+  meta.innerHTML = `<strong>${escapeHtml(it.section)} — ${escapeHtml(it.lesson)}</strong><br>` +
+                   `<a target="_blank" rel="noreferrer" href="${it.lesson_url}">Open lesson page</a>`;
+}
+
+function playIndex(i){
+  if(i < 0 || i >= ITEMS.length) return;
+  idx = i;
+  const it = ITEMS[idx];
+  document.getElementById('player').src = embedUrl(it.vimeo_id);
+  setMeta(it);
+  localStorage.setItem('playlist:lastIndex', String(idx));
+  // highlight active Play button
+  document.querySelectorAll('button.play').forEach(b => b.style.outline = '');
+  const btn = document.querySelector(`button.play[data-vid="${CSS.escape(it.vimeo_id)}"][data-lessonurl="${CSS.escape(it.lesson_url)}"]`);
+  if(btn) btn.style.outline = '3px solid #c7d2fe';
+}
+
+function escapeHtml(s){
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function wireButtons(){
+  document.querySelectorAll('button.play').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const vid = btn.dataset.vid;
+      const url = btn.dataset.lessonurl;
+      const section = btn.dataset.section;
+      const title = btn.dataset.title;
+      const i = ITEMS.findIndex(x => x.vimeo_id === vid && x.lesson_url === url);
+      if(i >= 0) playIndex(i);
+      else {
+        // fallback if mismatch
+        document.getElementById('player').src = embedUrl(vid);
+        document.getElementById('meta').innerHTML =
+          `<strong>${escapeHtml(section)} — ${escapeHtml(title)}</strong><br>` +
+          `<a target="_blank" rel="noreferrer" href="${url}">Open lesson page</a>`;
+      }
+    });
+  });
+
+  document.getElementById('prev').addEventListener('click', () => playIndex(Math.max(0, idx-1)));
+  document.getElementById('next').addEventListener('click', () => playIndex(Math.min(ITEMS.length-1, idx+1)));
+
+  document.getElementById('openLesson').addEventListener('click', () => {
+    if(idx < 0) return;
+    window.open(ITEMS[idx].lesson_url, '_blank', 'noreferrer');
+  });
+
+  const q = document.getElementById('q');
+  q.addEventListener('input', () => {
+    const term = q.value.trim().toLowerCase();
+    document.querySelectorAll('.card').forEach(card => {
+      const text = card.innerText.toLowerCase();
+      card.classList.toggle('hidden', term && !text.includes(term));
+    });
+  });
+}
+
+function start(){
+  wireButtons();
+  const saved = localStorage.getItem('playlist:lastIndex');
+  if(saved && /^\d+$/.test(saved)){
+    const i = parseInt(saved, 10);
+    if(i >= 0 && i < ITEMS.length) { playIndex(i); return; }
+  }
+  if(ITEMS.length) playIndex(0);
+}
+
+start();
+
+</script>
+</div></body></html>
